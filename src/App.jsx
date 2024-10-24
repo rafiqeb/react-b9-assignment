@@ -8,6 +8,8 @@ function App() {
 
   const [cooking, setCooking] = useState([])
   const [preaparedItem, setPreaparedItem] = useState([])
+  const [totalTime, setTotalTime] = useState(0)
+  const [totalCalories, setTotalCalories] = useState(0)
   
   const handleCooking = (card) => {
     
@@ -26,6 +28,11 @@ function App() {
     setPreaparedItem([...preaparedItem, delatedItem])
   }
 
+  const totalTimeAndCalories = (time, calories) => {
+    setTotalTime(totalTime + time)
+    setTotalCalories(totalCalories + calories)
+  }
+
   return (
     <>
       
@@ -36,7 +43,14 @@ function App() {
         <Cards handleCooking={handleCooking}></Cards>
 
         {/* side bar */}
-        <Sidebars handleRemove={handleRemove} preaparedItem={preaparedItem} cooking={cooking}></Sidebars>
+        <Sidebars 
+        handleRemove={handleRemove}
+        preaparedItem={preaparedItem} 
+        cooking={cooking}
+        totalTimeAndCalories={totalTimeAndCalories}
+        totalTime={totalTime}
+        totalCalories={totalCalories}
+        ></Sidebars>
         
       </section>
 

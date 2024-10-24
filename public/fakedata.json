@@ -5,7 +5,7 @@
       "image": "https://i.ibb.co.com/zsR7bmd/tomato-such-1.png",
       "short_description": "Delicious tacos filled with spicy grilled chicken and fresh vegetables.",
       "ingredients": ["Chicken breast", "Taco shells", "Lettuce", "Tomatoes", "Cheese", "Hot sauce"],
-      "preparing_time": "30 minutes",
+      "preparing_time": 30,
       "calories": 450
     },
     {
@@ -14,7 +14,7 @@
       "image": "https://i.ibb.co.com/vhx35fm/mushroom-2.png",
       "short_description": "A rich and creamy risotto with sautéed mushrooms and Parmesan cheese.",
       "ingredients": ["Arborio rice", "Mushrooms", "Chicken broth", "Onion", "Parmesan cheese", "Butter"],
-      "preparing_time": "40 minutes",
+      "preparing_time": 40,
       "calories": 600
     },
     {
@@ -23,7 +23,7 @@
       "image": "https://i.ibb.co.com/qJgJR82/buddha-bowel-3.png",
       "short_description": "A healthy vegan bowl packed with quinoa, roasted vegetables, and avocado.",
       "ingredients": ["Quinoa", "Sweet potato", "Avocado", "Chickpeas", "Spinach", "Tahini dressing"],
-      "preparing_time": "25 minutes",
+      "preparing_time": 25,
       "calories": 350
     },
     {
@@ -32,7 +32,7 @@
       "image": "https://i.ibb.co.com/hRTjsD6/protin-meal-4.png",
       "short_description": "A flavorful pasta dish with succulent shrimp sautéed in garlic butter sauce.",
       "ingredients": ["Pasta", "Shrimp", "Garlic", "Butter", "Parsley", "Lemon"],
-      "preparing_time": "20 minutes",
+      "preparing_time": 20,
       "calories": 520
     },
     {
@@ -41,7 +41,7 @@
       "image": "https://i.ibb.co.com/g4RThdL/pizza-5.png",
       "short_description": "A simple, yet delicious pizza topped with fresh mozzarella, tomatoes, and basil.",
       "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil", "Olive oil"],
-      "preparing_time": "15 minutes",
+      "preparing_time": 15,
       "calories": 800
     },
     {
@@ -50,7 +50,7 @@
       "image": "https://i.ibb.co.com/6t5Vxrj/chocolate-6.png",
       "short_description": "A healthy, creamy dessert made with ripe avocados and rich cocoa.",
       "ingredients": ["Avocado", "Cocoa powder", "Maple syrup", "Vanilla extract", "Coconut cream"],
-      "preparing_time": "10 minutes",
+      "preparing_time": 10,
       "calories": 250
     }
   ]

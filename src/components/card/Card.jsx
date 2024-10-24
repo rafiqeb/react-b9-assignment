@@ -14,17 +14,17 @@ const Card = ({ card, handleCooking }) => {
                         src={image}
                         alt="Shoes" />
                 </figure>
-                <div className="card-body">
-                    <h2 className="card-title">{name}</h2>
+                <div className="card-body space-y-3">
+                    <h2 className="card-title font-bold">{name}</h2>
                     <p>{short_description}</p>
                     <h3 className='text-xl font-bold'>Ingredients: {ingredients.length}</h3>
-                    <ul>
+                    <ul className=' text-blue-500 font-bold'>
                         {ingredients.map((item, idx) => <li key={idx}>{item}</li>)}
                     </ul>
                     <div className='flex justify-center items-center gap-8'>
                         <div className='flex gap-3 justify-center items-center'>
-                            <CiAlarmOn />
-                            <p>{preparing_time}</p>
+                            <p className='text-xl font-bold'><CiAlarmOn /></p>
+                            <p>{preparing_time} munites</p>
                         </div>
                         <div className='flex gap-3 justify-center items-center'>
                             <FaFire />
@@ -33,7 +33,7 @@ const Card = ({ card, handleCooking }) => {
                         
                         <p></p>
                     </div>
-                    <div className="card-actions justify-end">
+                    <div className="card-actions justify-center">
                         <button onClick={() => handleCooking(card)} className="btn bg-green-400 rounded-full font-bold">Want to cook</button>
                     </div>
                 </div>
